@@ -3,7 +3,7 @@ from pygame.locals import *
 from random import choice, randint
 p.init()
 scr = p.display.set_mode((200,400))
-p.display.set_caption("Platformer by ImNotHereToPlayGames")
+p.display.set_caption("Ping by ImNotHereToPlayGames")
 icon = p.image.load('res/logo.png')
 p.display.set_icon(icon)
 SPD = 1
